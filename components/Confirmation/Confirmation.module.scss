@@ -1,0 +1,30 @@
+.confirmation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: showConfirmation 0.4s ease forwards;
+}
+
+.confirmation h2 {
+  margin: 0;
+}
+
+.confirmation p {
+  margin: 8px 0;
+}
+
+.confirmation button {
+  align-self: center;
+}
+
+@keyframes showConfirmation {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
