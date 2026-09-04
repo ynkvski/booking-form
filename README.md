@@ -19,11 +19,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-## TODO
+## Реализовано
+- Форма бронирования
+- Валидация данных формы
+- Имитация отправки формы через setTimeout (1.5 секунды)
+- Состояние загрузки и блокировка кнопки отправки
+- Экран подтверждения бронирования
+- Анимации перехода
+- Адаптивная верстка
 
-- Не доделать некоторые элементы стилизации.
-- Не разбил компонент booking, на еще 1 компонент для полей.
-- Не добавил функцию очистки формы, после нажатия кнопки "Забронировать еще"
+## Что можно улучшить
+- Доработать некоторые детали стилизации
+- При необходимости разделить BookingForm на более мелкие компоненты
+- Очищать состояние формы после нажатия "Забронировать ещё"
+- Добавить unit тесты для валидации
+- В production версии подключить API для создания бронирования
 
 
 ## Learn More
